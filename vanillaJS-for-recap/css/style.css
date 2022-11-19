@@ -1,0 +1,183 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css");
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+input[type="text"] {
+  width: 396px;
+  height: 64px;
+  border: none;
+  border-bottom: solid 3px white;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+}
+input::placeholder {
+  color: rgb(176, 176, 176);
+}
+input[type="submit"] {
+  display: none;
+}
+
+#loginForm {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-logout {
+  position: relative;
+  width: 489px;
+  height: 191px;
+  left: 50%;
+  transform: translate(-50%);
+  top: 120px;
+}
+.header-login {
+  position: relative;
+  width: 489px;
+  height: 191px;
+  left: 150px;
+  top: 91px;
+}
+
+#header {
+  display: inline-block;
+  position: relative;
+  width: 340px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#calender {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+#clock {
+  position: absolute;
+  left: 0;
+  top: 32px;
+  color: white;
+  font-size: 100px;
+  font-weight: 200;
+}
+#welcome {
+  position: absolute;
+  top: 320px;
+  left: 150px;
+  color: white;
+  font-size: 44px;
+  font-weight: 300;
+}
+
+#quoteContainer {
+  position: absolute;
+  left: 50%;
+  bottom: 48px;
+  transform: translate(-50%);
+  width: 80%;
+  height: 10%;
+  overflow: auto;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+.quoteBox {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: max-content;
+}
+.authorBox {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  font-weight: 500;
+}
+
+#weatherContainer {
+  position: absolute;
+  right: 0;
+  top: 56px;
+  display: inline-block;
+  color: white;
+}
+.nameContainer {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.tempContainer {
+  font-size: 20px;
+  font-weight: 500;
+}
+.weatherContainer {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#todoForm {
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  color: white;
+  height: 580px;
+  overflow: scroll;
+}
+
+#todoList {
+  position: absolute;
+  top: 184px;
+  left: 50%;
+  padding: 8px;
+  color: white;
+  border: solid 1px transparent;
+}
+
+li {
+  margin-bottom: 24px;
+  margin-right: 16px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/1.jpeg" />
+    <title>myAppForJs</title>
+  </head>
+  <body>
+    <div id="header" class="header-logout">
+      <div id="calender">00월 00일 (0)</div>
+      <div id="clock">00:00</div>
+      <div id="weatherContainer">
+        <div class="nameContainer"></div>
+        <div class="tempContainer"></div>
+        <div class="weatherContainer"></div>
+      </div>
+    </div>
+    <div id="welcome" class="hidden">
+      <div class="greeting1"></div>
+      <div class="greeting2"></div>
+    </div>
+    <form id="loginForm">
+      <input
+        class="loginInput"
+        type="text"
+        placeholder="Please enter your name"
+        maxlength="15"
+        required
+      />
+      <input class="loginButton" type="submit" value="로그인" />
+    </form>
+    <form id="todoForm">
+      <input
+        class="todoInput"
+        type="text"
+        placeholder="What are you going to do?"
+        required
+      />
+    </form>
+    <ul id="todoList"></ul>
+    <div id="quoteContainer">
+      <div class="quoteBox"></div>
+      <div class="authorBox"></div>
+    </div>
+  </body>
+  <script src="./js/login.js"></script>
+  <script src="./js/clock.js"></script>
+  <script src="./js/quotes.js"></script>
+  <script src="./js/background.js"></script>
+  <script src="./js/weather.js"></script>
+  <script src="./js/todo.js"></script>
+</html>
